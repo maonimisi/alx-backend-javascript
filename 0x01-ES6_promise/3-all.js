@@ -6,10 +6,9 @@ import {
 export default function handleProfileSignup() {
   return Promise.all([uploadPhoto(), createUser()])
     .then((response) => {
-      const { body } = response.shift();
-      const { firstName, lastName } = response.pop();
+      const body = response.shift();
+      const [firstName, lastName] = response.pop(); // Corrected the syntax here
       console.log(`${body} ${firstName} ${lastName}`);
     })
     .catch(() => console.log('Signup system offline'));
 }
-
