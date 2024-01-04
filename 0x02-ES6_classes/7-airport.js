@@ -4,7 +4,7 @@ class Airport {
       throw TypeError('Name must be of type string');
     }
     if (typeof code !== 'string') {
-      throw TypeError('Code must be of type string')
+      throw TypeError('Code must be of type string');
     }
     this._name = name;
     this._code = code;
