@@ -9,5 +9,3 @@ export default function updateUniqueItems(map) {
   }
   return map;
 }
-
-export default updateUniqueItems;
