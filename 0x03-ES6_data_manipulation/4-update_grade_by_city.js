@@ -1,4 +1,4 @@
-function updateStudentGradeByCity(studentList, city, newGrades) {
+export default function updateStudentGradeByCity(studentList, city, newGrades) {
   if (!Array.isArray(studentList)) {
     return [];
   }
