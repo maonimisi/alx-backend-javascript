@@ -18,6 +18,8 @@
   "homepage": "https://github.com/maonimisi/alx-backend-javascript/tree/main#readme",
   "devDependencies": {
     "assert": "^2.1.0",
+    "chai": "^5.1.0",
+    "chair": "^0.0.0",
     "mocha": "^10.3.0"
   }
 }
